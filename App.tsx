@@ -162,10 +162,10 @@ const App: React.FC = () => {
                         <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                         <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                       </svg>
-                      Analyzing...
+                      Optimizing for SEO...
                     </>
                   ) : (
-                    'Generate Anchors'
+                    'Generate SEO Anchors'
                   )}
                 </button>
               </form>
@@ -190,7 +190,7 @@ const App: React.FC = () => {
                   </div>
                   <h3 className="text-lg font-medium text-slate-900">Ready to Optimize</h3>
                   <p className="mt-2 text-slate-500 max-w-md mx-auto">
-                    Enter your target category and product URLs on the left. We'll generate semantic, SEO-optimized anchor texts using Gemini 2.5.
+                    Enter your target category and product URLs on the left. We'll generate semantic, SEO-optimized anchor texts using Gemini 3.
                   </p>
                </div>
             )}
